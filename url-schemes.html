@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html lang="jp" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>URLスキーム - AnkiMobile マニュアル</title>
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> はじめに</a></li><li class="chapter-item expanded "><a href="support.html"><strong aria-hidden="true">2.</strong> サポート</a></li><li class="chapter-item expanded "><a href="interface-language.html"><strong aria-hidden="true">3.</strong> インターフェース言語</a></li><li class="chapter-item expanded "><a href="syncing.html"><strong aria-hidden="true">4.</strong> クラウド同期</a></li><li class="chapter-item expanded "><a href="shared-decks.html"><strong aria-hidden="true">5.</strong> 共有デッキ</a></li><li class="chapter-item expanded "><a href="deck-list.html"><strong aria-hidden="true">6.</strong> デッキリスト</a></li><li class="chapter-item expanded "><a href="study-screen.html"><strong aria-hidden="true">7.</strong> 学習画面</a></li><li class="chapter-item expanded "><a href="study-tools.html"><strong aria-hidden="true">8.</strong> 学習ツール</a></li><li class="chapter-item expanded "><a href="editing.html"><strong aria-hidden="true">9.</strong> 追加と編集</a></li><li class="chapter-item expanded "><a href="preferences.html"><strong aria-hidden="true">10.</strong> 設定</a></li><li class="chapter-item expanded "><a href="collection-transfer.html"><strong aria-hidden="true">11.</strong> コレクション転送</a></li><li class="chapter-item expanded "><a href="tts.html"><strong aria-hidden="true">12.</strong> テキスト読み上げ</a></li><li class="chapter-item expanded "><a href="mathjax.html"><strong aria-hidden="true">13.</strong> MathJax</a></li><li class="chapter-item expanded "><a href="custom-fonts.html"><strong aria-hidden="true">14.</strong> カスタムフォント</a></li><li class="chapter-item expanded "><a href="night-mode.html"><strong aria-hidden="true">15.</strong> ナイトモードのスタイリング</a></li><li class="chapter-item expanded "><a href="url-schemes.html" class="active"><strong aria-hidden="true">16.</strong> URLスキーム</a></li><li class="chapter-item expanded "><a href="reinstalling.html"><strong aria-hidden="true">17.</strong> 再インストール</a></li><li class="chapter-item expanded "><a href="beta-testing.html"><strong aria-hidden="true">18.</strong> ベータテスト</a></li><li class="chapter-item expanded "><a href="more.html"><strong aria-hidden="true">19.</strong> その他の機能</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">AnkiMobile マニュアル</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://https://github.com/shigeyukey/ankimobile-docs-jp/" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="urlスキーム"><a class="header" href="#urlスキーム">URLスキーム</a></h1>
+<p>AnkiMobileは、サードパーティの辞書を開くためや、他のアプリケーションからAnkiMobileにコンテンツを追加するためのURLスキームをサポートしています。</p>
+<h2 id="ankimobileのurlスキーム"><a class="header" href="#ankimobileのurlスキーム">AnkiMobileのURLスキーム</a></h2>
+<h3 id="ノートの追加"><a class="header" href="#ノートの追加">ノートの追加</a></h3>
+<p>「URLスキーム」とは、ウェブサイトへのリンクのようなもので、アプリへのリンクです。簡単な例は次のとおりです：</p>
+<pre><code>anki://
+</code></pre>
+<p>これをデバイスのSafariに入力すると、AnkiMobileが開きます。</p>
+<p>バージョン2.0.30以降、AnkiMobileはコレクションに新しいノートを追加するためのスキームを提供しています。これは、URLスキームを介して他のアプリを呼び出すことをサポートする辞書アプリや、Workflowのような自動化アプリで使用できます。</p>
+<p>カードを追加するためのスキームは次のようになります：</p>
+<pre><code>anki://x-callback-url/addnote?profile=User%201&amp;type=Basic&amp;deck=Default&amp;fldFront=front%20text&amp;fldBack=back%20text
+</code></pre>
+<p>最初の部分は常に必要です：</p>
+<pre><code>anki://x-callback-url/addnote?
+</code></pre>
+<p>最初の部分の後、キーと値はアンパサンドで区切られます。以下のキーは常に提供する必要があります：</p>
+<ul>
+<li>
+<p><code>type=&lt;ノートタイプ名&gt;</code></p>
+</li>
+<li>
+<p><code>deck=&lt;デッキ名&gt;</code></p>
+<ul>
+<li>ネストされたデッキは <code>::</code> で区切ります
+<ul>
+<li><code>deck=&lt;デッキ名&gt;::&lt;サブデッキ名&gt;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>フィールドは名前の前に &quot;fld&quot; を付けて入力します。例えば、最初のフィールドが &quot;Text&quot; と呼ばれる場合、キーは &quot;fldText&quot; になります。フィールドのテキストはHTMLとして解釈されるため、テキストに改行を入れたい場合は &quot;line 1&lt;br&gt;line 2&quot; のようにします。</p>
+<p>URL内の特殊文字はエスケープする必要があります。例えば、フィールドにスペースが含まれている場合、それは <code>%20</code> で表現する必要があります。Shortcutsアプリを使用している場合、URLエンコードアクションが役立つかもしれません。</p>
+<p>残りのキーはオプションです：</p>
+<ul>
+<li>
+<p><code>profile=&lt;プロファイル名&gt;</code></p>
+<p>指定された場合、指定されたプロファイルが現在アクティブでないと追加は失敗します。</p>
+</li>
+<li>
+<p><code>tags=&lt;スペースで区切られたタグ&gt;</code></p>
+</li>
+<li>
+<p><code>dupes=1</code> - 指定された場合、既存のノートに同じ内容があってもノートを追加できます。</p>
+</li>
+<li>
+<p><code>x-success=&lt;他のアプリのURLスキーム&gt;</code> - ノートが追加された後に自動的に他のアプリに戻るために使用します。</p>
+</li>
+</ul>
+<p>提供されたフィールドが画像や音声ファイルへのリンクである場合、AnkiMobileはそのメディアを自動的にダウンロードし、フィールドにリンクを配置します。例：</p>
+<pre><code>fldFront=http://example.com/image.jpg
+</code></pre>
+<p>リンクは、認識されたファイル拡張子で終わる場合にのみダウンロードされます。リンクが動的なウェブページの場合、末尾に拡張子を持つ偽の引数を追加できます。例えば、<code>http://example.com/getImage?imgID=1234&amp;fakePath=foo.jpg</code> のようにします。URLスキームに含める前にURLをエスケープするように注意してください。そうしないと、<code>?</code> や <code>&amp;</code> の文字がURLスキームの一部として解釈されてしまいます。</p>
+<h3 id="追加に関する情報"><a class="header" href="#追加に関する情報">追加に関する情報</a></h3>
+<p>サードパーティのアプリがプロファイル、デッキ、およびノートタイプの名前を取得するための別のURLスキームがあります。これにより、ユーザーにわかりやすい形で情報を提示できます。</p>
+<p>アプリは次のURLを呼び出す必要があります：</p>
+<p><code>anki://x-callback-url/infoForAdding?x-success=...</code></p>
+<p>ユーザーがリクエストを承認すると、要求されたデータがクリップボードに保存され、以下の方法で取得できます。データを取得した後は、クリップボードをクリアする必要があります。</p>
+<pre><code class="language-swift">let PASTEBOARD_TYPE = &quot;net.ankimobile.json&quot;
+if let data = UIPasteboard.general.data(forPasteboardType: PASTEBOARD_TYPE) {
+   // clear clipboard
+   UIPasteboard.general.setData(Data(), forPasteboardType: PASTEBOARD_TYPE)
+   // ... handle json
+}
+</code></pre>
+<h3 id="検索"><a class="header" href="#検索">検索</a></h3>
+<p>AnkiMobile 2.0.90以降で利用可能です。指定された検索文字列で検索を開くことができます。</p>
+<p><code>anki://x-callback-url/search?query=...</code></p>
+<h3 id="同期"><a class="header" href="#同期">同期</a></h3>
+<p>AnkiMobile 2.0.90以降で利用可能です。同期ボタンをタップするのと同じ動作を行います。</p>
+<p><code>anki://x-callback-url/sync</code></p>
+<h2 id="辞書リンク"><a class="header" href="#辞書リンク">辞書リンク</a></h2>
+<p>デスクトップ版のAnkiでは、フィールドの内容に基づいてウェブページを開く機能が提供されており、オンライン辞書サイトへのリンクを簡単に作成できます。これはマニュアルの<a href="https://shigeyukey.github.io/anki-manual-jp/templates/fields.html#%E8%BE%9E%E6%9B%B8%E3%83%AA%E3%83%B3%E3%82%AF">このセクション</a>に記載されていますが、まず<a href="https://shigeyukey.github.io/anki-manual-jp/templates/intro.html">カードとテンプレート</a>のセクションから始めてください。上記のリンクはその前提で書かれています。</p>
+<p>デスクトップ版と同様に、AnkiMobileも辞書ウェブサイトへのリンクをサポートしています。さらに、URLスキームを使用してデバイスにインストールされている異なる辞書アプリへのリンクも作成できます。</p>
+<p>一部の辞書アプリは、特定のフレーズを検索するためのURLスキームを提供しています。例えば、iDict+というアプリは以下のようなURLを許可しています：</p>
+<pre><code>idictplus://?search=mysearchtext
+</code></pre>
+<p>iDict+がインストールされている場合、SafariにこのURLを入力すると、iDict+が開き、「mysearchtext」をすぐに検索します。</p>
+<p>iDict+はリターンリンクを渡すこともサポートしています。上記を次のように置き換えることができます：</p>
+<pre><code>idictplus://?search=txt&amp;scheme=anki://
+</code></pre>
+<p>これをSafariに入力すると、以前と同様に「mysearchtext」を検索しますが、「リターン」ボタンも表示され、押すとAnkiが開きます。</p>
+<p>このテキストを取り、上記のデスクトップ版の指示と組み合わせることで、カード上に他のアプリで単語を検索し、完了したらAnkiに戻るリンクを作成することが可能です。</p>
+<p>残念ながら、URLスキームには標準がありません。一部のアプリはそれを実装しており、一部はしておらず、実装方法も異なる場合があります。例えば、「Kotoba!」というアプリでは、URLスキームは次のようになります：</p>
+<pre><code>kotoba://dictionary?word=mysearchtext
+</code></pre>
+<p>アプリ名だけでなく、その後のテキストも異なることに注意してください。また、Kotoba!は開いたアプリに自動的に戻る機能を提供していないため、ホームボタンをダブルタップしてAnkiMobileに手動で戻る必要があります。</p>
+<p>一部の辞書アプリは、ドキュメントでURLスキームを公開しています。使用している辞書アプリが公開していない場合は、著者に連絡して詳細を尋ねてください。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="night-mode.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="reinstalling.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="night-mode.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="reinstalling.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
