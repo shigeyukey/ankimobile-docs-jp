@@ -20,3 +20,6 @@ renderer = ["html"]
 optional = true
 warning-policy = "warn"
 follow-web-links = true
+exclude = [ 'quora\.com', 'reddit.com',
+ 'superuser.com', 'github.com/open-spaced-repetition',
+ 'shigeyukey.github.io/Anki-faqs-jp','shigeyukey.github.io/anki-manual-jp' ]
