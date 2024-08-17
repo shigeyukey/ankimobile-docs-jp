@@ -1,15 +1,7 @@
-# Custom Fonts
+# カスタムフォント
 
-AnkiMobile allows you to use non-system fonts on your cards. To set them
-up, the desktop client is required. Please see [the section in the desktop manual](https://docs.ankiweb.net/templates/styling.html#installing-fonts) for
-more information.
+AnkiMobileでは、カードにシステムフォント以外のフォントを使用することができます。これを設定するには、デスクトップクライアントが必要です。詳細については、[デスクトップマニュアルのセクション](https://shigeyukey.github.io/anki-manual-jp/templates/styling.html#フォントのインストール)を参照してください。
 
-Please note that AnkiMobile has to load the entire font into memory in
-order to use it, and fonts for Asian languages can be quite large. If
-you have an older device and notice AnkiMobile crashing frequently after
-installing a font, you may have exceeded your device’s memory limits.
+AnkiMobileがフォントを使用するためには、フォント全体をメモリに読み込む必要があることに注意してください。アジア言語のフォントは非常に大きい場合があります。古いデバイスを使用していて、フォントをインストールした後にAnkiMobileが頻繁にクラッシュする場合は、デバイスのメモリ制限を超えている可能性があります。
 
-We have had reports from one user that no more than 3 fonts could be
-embedded - this may be a limitation imposed by the system web libraries.
-If you need access to lots of fonts, you may want to look at installing
-the fonts into iOS instead.
+1人のユーザーから、3つ以上のフォントを埋め込むことができないという報告がありました。これはシステムのウェブライブラリによる制限かもしれません。多くのフォントにアクセスする必要がある場合は、フォントをiOSにインストールすることを検討してください。

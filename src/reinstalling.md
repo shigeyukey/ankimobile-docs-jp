@@ -1,17 +1,17 @@
-# Installing AnkiMobile on multiple devices
+# 複数のデバイスにAnkiMobileをインストールする
 
-Once purchased, you can use AnkiMobile on multiple devices you own without having to pay again.
+一度購入すれば、AnkiMobileを複数の所有するデバイスに再度支払うことなく使用できます。
 
-To do so, make sure the device is using the same Apple ID as you made the original purchase with, or is enrolled in [family sharing](https://support.apple.com/en-au/HT201060).
+そのためには、デバイスが元の購入に使用したApple IDを使用しているか、[ファミリー共有](https://support.apple.com/ja-jp/HT201060)に登録されていることを確認してください。
 
-- Open the App Store on the device you want to install AnkiMobile on.
-- Tap on your profile icon in the top right
-- Tap on Purchased
-- If you have family sharing enabled, tap on the person who bought the app originally.
-- When you've located AnkiMobile, tap on the cloud icon to download it.
+- AnkiMobileをインストールしたいデバイスでApp Storeを開きます。
+- 右上のプロフィールアイコンをタップします。
+- 「購入済み」をタップします。
+- ファミリー共有を有効にしている場合は、アプリを最初に購入した人をタップします。
+- AnkiMobileを見つけたら、クラウドアイコンをタップしてダウンロードします。
 
-<h2>Account troubles</h2>
+<h2>アカウントの問題</h2>
 
-Apple do not provide us with any access to their systems, so we do not have the ability to help you recover an old account, or confirm a previous purchase you have made. If you have any trouble with the purchase or download process, please give Apple a call:
+Appleはシステムへのアクセスを提供していないため、古いアカウントを回復したり、以前の購入を確認したりすることはできません。購入やダウンロードの過程で問題が発生した場合は、Appleに連絡してください：
 
 <http://support.apple.com>

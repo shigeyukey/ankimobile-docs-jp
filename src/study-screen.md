@@ -1,52 +1,23 @@
-# The Study Screen
+# 学習画面
 
-If you have not used Anki on a computer before, please have a look at
-the first [intro video](https://docs.ankiweb.net/getting-started.html#videos) before
-reading on, as it explains the basic review process.
+コンピュータでAnkiを使用したことがない場合は、基本的なレビューのプロセスを説明している最初の[紹介ビデオ](https://shigeyukey.github.io/anki-manual-jp/getting-started.html#videos)を読んでから読み進めてください。
 
-When you tap on a deck in the deck list, the study screen will load, and
-if any cards are waiting to be studied, a card’s question will be shown
-to you.
+デッキリストでデッキをタップすると、学習画面が表示され、学習待ちのカードがある場合はカードの質問が表示されます。
 
-If you wish to change to a different deck, you can do so by tapping the
-top left button. The next three buttons allow you to add cards, edit the
-current card, and search/browse all cards.
+別のデッキに変更したい場合は、左上のボタンをタップしてください。次の3つのボタンでカードを追加したり、現在のカードを編集したり、すべてのカードを検索/ブラウズしたりできます。
 
-The gear/cog in the bottom right will open up the [tools screen](study-tools.md).
+右下のギア/コグアイコンをタップすると、[ツール画面](study-tools.md)が開きます。
 
-On the bottom of the screen you’ll see three numbers. From the left,
-these correspond to new cards, learning cards, and cards to review.
-These are explained in more detail in the intro videos for the desktop
-program, so please [check them out](https://docs.ankiweb.net/getting-started.html#videos) if you
-haven’t already.
+画面の下部には3つの数字が表示されます。左から、新しいカード、学習中のカード、レビューするカードに対応しています。これらについては、デスクトッププログラムの紹介ビデオで詳しく説明されていますので、まだご覧になっていない場合は[チェックしてください](https://shigeyukey.github.io/anki-manual-jp/getting-started.html#ビデオ)。
 
-When you’ve looked at a card’s question and remembered the answer, or
-decided you don’t know it, tap anywhere in the card area in order to
-show the answer. When you do, the bottom area will change to display 2-4
-answer buttons, depending on how you’ve answered the card previously.
-The buttons will display the time a card will next be shown, so 10m
-means "10 minutes" and "5d" means "5 days". You can tap directly on
-these buttons to choose a particular answer.
+カードの質問を見て答えを覚えた場合や、答えがわからないと判断した場合は、カードエリアのどこかをタップして答えを表示します。そうすると、下部エリアが変更され、以前のカードの回答方法に応じて2～4つの回答ボタンが表示されます。ボタンには次にカードが表示される時間が表示されます。例えば、「10m」は「10分後」、「5d」は「5日後」を意味します。特定の回答を選択するには、これらのボタンを直接タップできます。
 
-To make reviewing faster, you can also tap on the card in order to
-answer it. For more information on the available taps and how to
-customize them, please see the [taps](preferences.md#taps) section.
+レビューを速くするために、カードをタップして回答することもできます。利用可能なタップとそのカスタマイズ方法については、[タップ](preferences.md#タップ)セクションを参照してください。
 
-If you are studying content for which it is useful to sketch something
-before showing the answer on the card (e.g., characters in a foreign
-language), AnkiMobile provides a feature called the 'scratchpad' (the
-analogous feature is called the 'whiteboard' in AnkiDroid). You can
-enable the scratchpad by tapping on the tools button, then "Scratchpad".
+答えを表示する前に何かをスケッチすることが有用なコンテンツ（例：外国語の文字）を学習している場合、AnkiMobileには「スクラッチパッド」と呼ばれる機能があります（AnkiDroidでは「ホワイトボード」と呼ばれます）。ツールボタンをタップし、「スクラッチパッド」を選択して有効にできます。
 
-When you’ve finished the cards that are due to be studied today, you’ll
-be shown a congratulations message. If you have other decks, you can tap
-the top left button to return to the decks list and select a different
-one.
+今日学習するカードがすべて終わると、おめでとうメッセージが表示されます。他のデッキがある場合は、左上のボタンをタップしてデッキリストに戻り、別のデッキを選択できます。
 
-You can tap the home button to close Anki and save your progress at any
-time, whether you have completed the day’s reviews or not.
+ホームボタンをタップすると、Ankiを閉じて進行状況を保存できます。これは、1日のレビューを完了しているかどうかに関係なく行えます。
 
-If you have a bluetooth keyboard, you can use the keyboard to review.
-Space will show the answer or answer Good, and 1-4 will choose the
-answer buttons. You can also press 'r' to repeat the audio on the
-current card.
+Bluetoothキーボードがある場合は、キーボードを使用してレビューすることもできます。スペースキーで答えを表示するか「良い」と回答し、1～4のキーで回答ボタンを選択できます。また、現在のカードのオーディオを繰り返すには「r」を押すことができます。

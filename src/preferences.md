@@ -1,127 +1,87 @@
-# Preferences
+# 設定
 
-The preferences screen can be accessed by tapping on the gear icon at
-the top right of the deck list. It allows you to customize various
-application settings and how AnkiMobile appears.
+設定画面は、デッキリストの右上にある歯車アイコンをタップすることでアクセスできます。ここでは、さまざまなアプリケーション設定やAnkiMobileの表示方法をカスタマイズできます。
 
-The Preferences screen is divided up into different sections, which are
-covered below.
+設定画面は以下の異なるセクションに分かれています。
 
-## Syncing
+## 同期
 
-The syncing screen allows you to customize [cloud synchronization](syncing.md) with
-AnkiWeb.
+同期画面では、AnkiWebとの[クラウド同期](syncing.md)をカスタマイズできます。
 
-**Sync Sounds & Images**\
-By default, AnkiMobile will sync sounds and images as well as your cards
-and review history. If you disable this option, sounds and images will
-not be synced by AnkiMobile.
+**サウンドと画像を同期**\
+デフォルトでは、AnkiMobileはカードやレビュー履歴だけでなく、サウンドや画像も同期します。このオプションを無効にすると、AnkiMobileはサウンドや画像を同期しなくなります。
 
-**Full Sync**\
-The full sync button allows you to force a full upload or download of
-your cards. This is useful if you accidentally deleted some cards and
-want to revert to the local or remote version, instead of having those
-deletions propagate to other devices. After tapping the button, you’ll
-be given a choice of whether you want to upload your collection or
-download it from AnkiWeb. Please note this option only affects how
-cards, notes and review history is transferred - it does not change how
-sounds and images are synced.
+**フル同期**\
+フル同期ボタンを使用すると、カードの完全なアップロードまたはダウンロードを強制できます。これは、誤ってカードを削除してしまい、その削除が他のデバイスに反映されるのを防ぎたい場合に便利です。ボタンをタップすると、コレクションをアップロードするか、AnkiWebからダウンロードするかを選択できます。このオプションは、カード、ノート、レビュー履歴の転送方法にのみ影響し、サウンドや画像の同期方法は変更しません。
 
-## Review
+## レビュー
 
-The review screen allows you to customize how AnkiMobile behaves when
-you’re reviewing cards.
+レビュー画面では、カードをレビューする際のAnkiMobileの動作をカスタマイズできます。
 
-**Feedback Ticks**\
-Flash a tick or cross in the top right to confirm your answer choice.
+**フィードバックティック**\
+回答を確認するために、右上にチェックマークやバツ印を表示します。
 
-**Tools Overlay Button**\
-Show the gear/cog icon on the study screen. If you prefer not to see it,
-you can assign the tools action to the top bar instead.
+**ツールオーバーレイボタン**\
+学習画面に歯車アイコンを表示します。表示したくない場合は、ツールアクションをトップバーに割り当てることができます。
 
-**Tools Overlay Position**\
-Allows you to put the tools button on the left.
+**ツールオーバーレイ位置**\
+ツールボタンを左側に配置することができます。
 
-**Audio Buttons**\
-Allows you to hide the play button that appears for each audio file
-you’ve placed on the card. Useful if you’d rather replay audio via the
-"Replay Audio" action bound to a swipe or tap.
+**オーディオボタン**\
+カードに配置した各オーディオファイルに対して表示される再生ボタンを非表示にすることができます。オーディオを再生するには、スワイプやタップに割り当てられた「オーディオ再生」アクションを使用することができます。
 
-**Always Duck + Ignore Mute**\
-When enabled, AnkiMobile will quieten any music you have playing in the
-background, and will automatically play audio even when the
-mute/vibrate/silent switch is turned on.
+**常にダック + ミュートを無視**\
+有効にすると、AnkiMobileはバックグラウンドで再生している音楽を静かにし、ミュート/バイブレーション/サイレントスイッチがオンになっている場合でも自動的にオーディオを再生します。
 
-**Answer Keeps Zoom**\
-By default, if you have zoomed in on a card, the screen will zoom out
-when you reveal the answer. If you enable this option, AnkiMobile will
-not zoom out.
+**回答時にズームを保持**\
+デフォルトでは、カードをズームインしている場合、回答を表示すると画面がズームアウトします。このオプションを有効にすると、AnkiMobileはズームアウトしません。
 
-**Never Type Answer**\
-If you have set up your cards to ask you to type in the answer (as
-explained in [this section](https://docs.ankiweb.net/templates/intro.html) of the
-desktop manual), AnkiMobile will display a keyboard on such cards and
-allow you to check your answer. If you find typing on a mobile device
-inconvenient, you can use this option to disable the keyboard for all
-cards.
+**タイプ入力を無効にする**\
+カードに答えを入力するように設定している場合（デスクトップマニュアルの[このセクション](https://shigeyukey.github.io/anki-manual-jp/templates/intro.html)で説明されています）、AnkiMobileはそのようなカードにキーボードを表示し、答えを確認できるようにします。モバイルデバイスでの入力が不便だと感じる場合は、このオプションを使用してすべてのカードでキーボードを無効にすることができます。
 
-**Shake Action**\
-Allows you to customize what happens when you shake your device. The
-default action is to undo the previous answer.
+**シェイクアクション**\
+デバイスをシェイクしたときに何が起こるかをカスタマイズできます。デフォルトのアクションは、前の回答を取り消すことです。
 
-**Double Tap Prevention**\
-This option ignores a second tap when two taps are made in quick
-succession, so that you don’t accidentally reveal the answer or advance
-to the next card. If you review your cards very quickly, you may wish to
-select a shorter detection time.
+**ダブルタップ防止**\
+このオプションは、短時間に2回タップされた場合に2回目のタップを無視することで、誤って答えを表示したり次のカードに進んだりしないようにします。カードを非常に速くレビューする場合は、検出時間を短くすることを検討してください。
 
-### Scheduling
+### スケジューリング
 
-These options affect the way Anki schedules cards in all decks.
+これらのオプションは、すべてのデッキでAnkiがカードをスケジュールする方法に影響します。
 
-**Day Starts**\
-Controls when a new day starts and new cards become available. Default
-is 04:00, which means new cards become available at 4AM.
+**新しい日が始まる時間**\
+新しい日が始まり、新しいカードが利用可能になる時間を制御します。デフォルトは04:00で、これは新しいカードが午前4時に利用可能になることを意味します。
 
-**Learn Ahead Minutes**\
-The number of minutes to look ahead when the only cards remaining to
-review with a next repetition time in the future. The default is 20
-minutes, which means cards due to show in 10 minutes will be shown
-immediately if nothing else is available to show.
+**先取り学習の分数**\
+次の復習時間が未来に設定されているカードしか残っていない場合に、どれだけ先のカードを表示するかを設定します。デフォルトは20分で、これは10分後に表示される予定のカードが、他に表示するカードがない場合にすぐに表示されることを意味します。
 
-### Notifications
+### 通知
 
-When enabled, Anki will display an alert at the selected time of day,
-reminding you to study and telling you how many reviews are waiting.
+有効にすると、Ankiは指定した時間にアラートを表示し、学習を促し、待機中のレビュー数を知らせます。
 
-### Top Bar
+### トップバー
 
-You can assign frequently used actions to the top bar for convenient
-access. For an explanation of the available actions, please see the
-[actions list](study-tools.md#actions).
+よく使用するアクションをトップバーに割り当てて、便利にアクセスできます。利用可能なアクションの説明については、[アクションリスト](study-tools.md#アクション)を参照してください。
 
-### Bottom Bar
+### ボトムバー
 
-**Show Bottom Bar**\
-Hides or shows the bottom area that shows the answer buttons and card
-counts.
+**ボトムバーを表示**\
+回答ボタンとカード数を表示する下部エリアを隠すか表示します。
 
-**Remaining Count**\
-Whether to show the card counts when the question side of a card is
-being shown.
+**残りのカウント**\
+カードの質問面が表示されているときにカード数を表示するかどうかを設定します。
 
-**Answer Buttons**\
-Whether to show the answer buttons on the answer side of a card.
+**回答ボタン**\
+カードの回答面に回答ボタンを表示するかどうかを設定します。
 
-**Next Times**\
-Whether to show the next study time above each of the answer buttons.
+**次の時間**\
+各回答ボタンの上に次の学習時間を表示するかどうかを設定します。
 
-### Taps
+### タップ
 
-When you’re reviewing, you can tap on different parts of a card in order
-to trigger different actions.
+レビュー中に、カードの異なる部分をタップしてさまざまなアクションをトリガーすることができます。
 
-Anki divides the screen into 9 sections:
+Ankiは画面を9つのセクションに分割します：
 
 <table>
 <colgroup>
@@ -131,28 +91,26 @@ Anki divides the screen into 9 sections:
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Top Left</p></td>
-<td><p>Top Center</p></td>
-<td><p>Top Right</p></td>
+<td><p>左上</p></td>
+<td><p>中央上</p></td>
+<td><p>右上</p></td>
 </tr>
 <tr class="even">
-<td><p>Mid Left</p></td>
-<td><p>Mid Center</p></td>
-<td><p>Mid Right</p></td>
+<td><p>左中</p></td>
+<td><p>中央中</p></td>
+<td><p>右中</p></td>
 </tr>
 <tr class="odd">
-<td><p>Bottom Left</p></td>
-<td><p>Bottom Center</p></td>
-<td><p>Bottom Right</p></td>
+<td><p>左下</p></td>
+<td><p>中央下</p></td>
+<td><p>右下</p></td>
 </tr>
 </tbody>
 </table>
 
-Each section can have a different action assigned to it if you wish, and
-the taps when the question is shown are also different from the taps
-when the answer is shown.
+各セクションには異なるアクションを割り当てることができ、質問が表示されているときのタップと回答が表示されているときのタップも異なります。
 
-By default, AnkiMobile responds as follows when the question in shown:
+デフォルトでは、AnkiMobileは質問が表示されているときに次のように応答します：
 
 <table>
 <colgroup>
@@ -162,26 +120,26 @@ By default, AnkiMobile responds as follows when the question in shown:
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Show Answer</p></td>
-<td><p>Show Answer</p></td>
-<td><p>Show Answer</p></td>
+<td><p>回答を表示</p></td>
+<td><p>回答を表示</p></td>
+<td><p>回答を表示</p></td>
 </tr>
 <tr class="even">
-<td><p>Show Answer</p></td>
-<td><p>Show Answer</p></td>
-<td><p>Show Answer</p></td>
+<td><p>回答を表示</p></td>
+<td><p>回答を表示</p></td>
+<td><p>回答を表示</p></td>
 </tr>
 <tr class="odd">
-<td><p>Show Answer</p></td>
-<td><p>Show Answer</p></td>
-<td><p>Show Answer</p></td>
+<td><p>回答を表示</p></td>
+<td><p>回答を表示</p></td>
+<td><p>回答を表示</p></td>
 </tr>
 </tbody>
 </table>
 
-In other words, tapping anywhere on the screen will show the answer.
+つまり、画面のどこをタップしても答えが表示されます。
 
-When the answer is shown, by default AnkiMobile responds as follows:
+答えが表示されると、デフォルトでAnkiMobileは次のように応答します：
 
 <table>
 <colgroup>
@@ -191,137 +149,101 @@ When the answer is shown, by default AnkiMobile responds as follows:
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Answer "Again"</p></td>
-<td><p>Off</p></td>
-<td><p>Answer "Good"</p></td>
+<td><p>「もう一度」</p></td>
+<td><p>オフ</p></td>
+<td><p>「正解」</p></td>
 </tr>
 <tr class="even">
-<td><p>Answer "Again"</p></td>
-<td><p>Off</p></td>
-<td><p>Answer "Good"</p></td>
+<td><p>「もう一度」</p></td>
+<td><p>オフ</p></td>
+<td><p>「正解」</p></td>
 </tr>
 <tr class="odd">
-<td><p>Answer "Again"</p></td>
-<td><p>Off</p></td>
-<td><p>Answer "Good"</p></td>
+<td><p>「もう一度」</p></td>
+<td><p>オフ</p></td>
+<td><p>「正解」</p></td>
 </tr>
 </tbody>
 </table>
 
-This allows you to tap on the left side of the screen to trigger the red
-button, and the right side of the screen to trigger the green button.
-Taps near the middle of the screen will be ignored.
+これにより、画面の左側をタップして赤いボタンを、右側をタップして緑のボタンをトリガーできます。画面の中央付近をタップしても無視されます。
 
-You can assign frequently used actions to taps for convenient access.
-For an explanation of the available actions, please see the [actions list](study-tools.md#actions).
+よく使用するアクションをタップに割り当てて、便利にアクセスできます。利用可能なアクションの説明については、[アクションリスト](study-tools.md#アクション)を参照してください。
 
-### Swipes
+### スワイプ
 
-You can also swipe up, down, left or right across a card to trigger an
-action.
+カードを上下左右にスワイプしてアクションをトリガーすることもできます。
 
-To ensure swipes don’t interfere with your ability to scroll on a large
-card or select text, a vertical swipe must begin from the far left or right side
-of the screen. Begin by placing your finger on the left or right side of
-the screen, and then move it up or down to trigger the
-relevant swipe.
+スワイプが大きなカードのスクロールやテキストの選択を妨げないようにするために、垂直スワイプは画面の左端または右端から始める必要があります。指を画面の左端または右端に置き、上下に動かして関連するスワイプをトリガーします。
 
-Horizontal swipes can be begun from any point on the screen.
+水平スワイプは画面の任意のポイントから開始できます。
 
-With the default settings:
+デフォルト設定では：
 
-- Swiping left displays the tools window
+- 左にスワイプするとツールウィンドウが表示されます
 
-- Swiping right returns to the deck list
+- 右にスワイプするとデッキリストに戻ります
 
-You can assign frequently used actions to swipes for convenient access.
-For an explanation of the available actions, please see the [actions list](study-tools.md#actions).
+よく使用するアクションをスワイプに割り当てて、便利にアクセスできます。利用可能なアクションの説明については、[アクションリスト](study-tools.md#アクション)を参照してください。
 
-### Scratchpad
+### スクラッチパッド
 
-**Ignore Fingers**\
-When enabled, the scratchpad will only respond to the Apple Pencil.
+**指を無視**\
+有効にすると、スクラッチパッドはApple Pencilにのみ反応します。
 
-**Undo Clears All**\
-Reverses the behaviour of the undo button, so a quick tap clears
-everything, and a long press clears the last stroke.
+**すべてクリアを元に戻す**\
+元に戻すボタンの動作を逆にします。短くタップするとすべてがクリアされ、長押しすると最後のストロークがクリアされます。
 
-**Scratchpad Below Buttons**\
-Whether the scratchpad should be placed above or below the bottom bar.
+**ボタンの下にスクラッチパッド**\
+スクラッチパッドを下部バーの上に配置するか下に配置するかを設定します。
 
-### Gamepads
+### ゲームパッド
 
-From AnkiMobile 2.0.53+, you can control the study screen with a game controller.
-The controller must be supported by iOS, and must provide an
-[extended controller profile](https://developer.apple.com/documentation/gamecontroller/gcextendedgamepad).
-Controllers with fewer buttons can not currently be used. For more information
-on setup, please see [this page](https://support.apple.com/en-au/HT210414).
+AnkiMobile 2.0.53以降では、ゲームコントローラーで学習画面を操作できます。
+コントローラーはiOSに対応している必要があり、[拡張コントローラープロファイル](https://developer.apple.com/documentation/gamecontroller/gcextendedgamepad)を提供する必要があります。
+ボタンが少ないコントローラーは現在使用できません。セットアップの詳細については、[このページ](https://support.apple.com/en-au/HT210414)を参照してください。
 
-The gamepads section of the preferences allows you to configure which
-actions are triggered when each button is pressed. You can assign an
-action to each direction on the d-pad, but the analog thumbpads can not
-be customized - they will always scroll the card up or down.
+ゲームパッドの設定セクションでは、各ボタンが押されたときにトリガーされるアクションを設定できます。
 
-## General
+## 一般
 
-## Theme
+## テーマ
 
-The theme screen allows you to customize the bar colours AnkiMobile
-uses. The available options will depend on whether night mode or iOS
-13’s dark mode is enabled.
+テーマ画面では、AnkiMobileが使用するバーの色をカスタマイズできます。利用可能なオプションは、ナイトモードやiOS 13のダークモードが有効になっているかどうかによって異なります。
 
-To customize the appearance of your cards, you’ll need to alter your
-card templates. You can do this using the Card Template action in the
-tools screen, or by using the computer version. For more info, please
-see <http://www.youtube.com/watch?v=F1j1Zx0mXME&yt:cc=on>
+カードの外観をカスタマイズするには、カードテンプレートを変更する必要があります。これは、ツール画面のカードテンプレートアクションを使用するか、コンピュータ版を使用して行うことができます。詳細については、<http://www.youtube.com/watch?v=F1j1Zx0mXME&yt:cc=on> を参照してください。
 
-## Profiles
+## プロファイル
 
-Profiles allow multiple users to study with the same device. You can add
-profiles from the settings screen. To rename or remove a profile, swipe
-to the left on it.
+プロファイルを使用すると、複数のユーザーが同じデバイスで学習できます。設定画面からプロファイルを追加できます。プロファイルの名前を変更したり削除したりするには、左にスワイプします。
 
-Each profile needs to be synced with its own AnkiWeb account. Please be
-careful not to sync two profiles with the same AnkiWeb ID, as this could
-lead to data loss.
+各プロファイルは、それぞれのAnkiWebアカウントと同期する必要があります。2つのプロファイルを同じAnkiWeb IDで同期しないように注意してください。データが失われる可能性があります。
 
-## Backups
+## バックアップ
 
-AnkiMobile will automatically create backups of your collection for you.
-The backups include all your cards and statistics, but do not include
-sounds or images, since they take up a lot of space.
+AnkiMobileはコレクションのバックアップを自動的に作成します。
+バックアップにはすべてのカードと統計情報が含まれますが、容量を多く占めるため、サウンドや画像は含まれません。
 
-To restore from a backup, open the Backups section in the preferences,
-and tap on the backup you wish to restore to.
+バックアップから復元するには、設定のバックアップセクションを開き、復元したいバックアップをタップします。
 
-If you’re unable to get AnkiMobile to start due to a serious error, you
-can still retrieve the backups from the iTunes file sharing area:
+重大なエラーでAnkiMobileが起動できない場合でも、iTunesのファイル共有エリアからバックアップを取得できます：
 
-1. Connect your Apple device to your computer via the USB cable.
+1. AppleデバイスをUSBケーブルでコンピュータに接続します。
 
-2. Open iTunes if it doesn’t open automatically.
+2. iTunesが自動的に開かない場合は、iTunesを開きます。
 
-3. Locate Anki’s file sharing section with [Apple’s instructions](http://support.apple.com/kb/HT4094).
+3. [Appleの指示](http://support.apple.com/kb/HT4094)に従って、Ankiのファイル共有セクションを見つけます。
 
-4. Drag the your backup folder from iTunes to your desktop.
+4. iTunesからバックアップフォルダをデスクトップにドラッグします。
 
-5. With the computer version of Anki, create a new, empty profile via
-   File&gt;Switch Profile, and then File&gt;Import the latest backup
-   colpkg from within that profile to confirm that it’s ok. If it is
-   corrupt, you can try a previous backup. You'll need Anki 2.1.50+ to
-   open the backups.
+5. コンピュータ版のAnkiを使用して、ファイル > プロファイルの切り替え から新しい空のプロファイルを作成し、そのプロファイル内でファイル > インポート を使用して最新のバックアップcolpkgをインポートして正常かどうか確認します。破損している場合は、以前のバックアップを試すことができます。バックアップを開くにはAnki 2.1.50以上が必要です。
 
-## Check Database
+## データベースのチェック
 
-This will check your collection for a number of possible errors and fix
-them if possible.
+これにより、コレクション内のいくつかの可能なエラーがチェックされ、可能であれば修正されます。
 
-It also will remove any tags that are no longer used by any cards.
+また、どのカードにも使用されていないタグが削除されます。
 
-## Check Media
+## メディアのチェック
 
-This scans all your notes for references to sounds and images, and then
-checks to make sure that the sounds and images are available. It will
-display a report letting you know of any sounds or images that are
-missing, and any sounds or images that are not used by any cards. If you
-tap the delete button, the unused sounds or images will be deleted.
+これにより、すべてのノートがサウンドや画像への参照をスキャンされ、それらのサウンドや画像が利用可能かどうかがチェックされます。欠落しているサウンドや画像、およびどのカードにも使用されていないサウンドや画像を知らせるレポートが表示されます。削除ボタンをタップすると、使用されていないサウンドや画像が削除されます。

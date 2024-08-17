@@ -1,29 +1,19 @@
-# More Features
+# その他の機能
 
 ## Javascript
 
-The [warnings](https://docs.ankiweb.net/templates/styling.html#javascript)
-that apply to the computer version also apply to AnkiMobile.
+[警告](https://shigeyukey.github.io/anki-manual-jp/templates/styling.html#javascript)はコンピュータ版にもAnkiMobileにも適用されます。
 
-In addition to the above, another thing to be aware of in AnkiMobile is
-that your code also needs to play nicely with AnkiMobile’s tap
-detection. Taps on A/BUTTON elements, or elements that have an onclick
-handler should work as you expect.
+上記に加えて、AnkiMobileではコードがAnkiMobileのタップ検出とうまく連携する必要があることにも注意してください。A/BUTTON要素やonclickハンドラを持つ要素へのタップは、期待通りに動作するはずです。
 
-If you have other elements that must receive tap events, give them the
-class 'tappable' to tell AnkiMobile 2.0.39 or later that it should pass
-taps through to the element.
+タップイベントを受け取る必要がある他の要素がある場合は、それらにクラス 'tappable' を付与して、AnkiMobile 2.0.39以降がタップを要素に渡すように指示してください。
 
-## Play Buttons
+## 再生ボタン
 
-To change the styling of the audio replay buttons, please see
-<https://docs.ankiweb.net/templates/styling.html#audio-replay-buttons>
+オーディオ再生ボタンのスタイルを変更するには、<https://shigeyukey.github.io/anki-manual-jp/templates/styling.html#オーディオ再生ボタン> を参照してください。
 
-## Image Resizing
+## 画像のリサイズ
 
-When you attach an image from the photo gallery it is automatically
-resized to have a maximum length of 1024 along its longest edge. 
+フォトギャラリーから画像を添付すると、自動的に最長辺が1024になるようにリサイズされます。
 
-Recent Anki versions allow you to customize this limit in the **Preferences >
-General** screen, and control whether the limit should also be applied to
-images pasted from the clipboard.
+最近のAnkiバージョンでは、**設定 > 一般** 画面でこの制限をカスタマイズし、クリップボードから貼り付けた画像にもこの制限を適用するかどうかを制御できます。

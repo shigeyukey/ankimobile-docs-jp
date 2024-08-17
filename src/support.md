@@ -1,12 +1,8 @@
-# Support
+# サポート
 
-There are two ways to get help with AnkiMobile. Both are regularly checked
-by Anki's developer, so there's no need to post the same question on both
-sites.
+AnkiMobileに関するサポートを受ける方法は2つあります。どちらもAnkiの開発者が定期的にチェックしているので、同じ質問を両方のサイトに投稿する必要はありません。
 
-- There is a [public user forum](https://forums.ankiweb.net/c/ankimobile/10).
-  This is a better choice for most questions, as other members of
-  the community may be able to answer you faster.
-- There is also a [private helpdesk](https://anki.tenderapp.com/discussions/private) for AnkiMobile.
-  Messages posted here will not be visible to other users. If your question is about the computer version
-  of Anki or AnkiWeb, please use the [user forums](https://forums.ankiweb.net) instead.
+- [公開ユーザーフォーラム](https://forums.ankiweb.net/c/ankimobile/10)があります。
+  これはほとんどの質問に対してより良い選択肢です。コミュニティの他のメンバーがあなたに迅速に回答できるかもしれません。
+- AnkiMobile専用の[プライベートヘルプデスク](https://anki.tenderapp.com/discussions/private)もあります。
+  ここに投稿されたメッセージは他のユーザーには表示されません。質問がコンピュータ版のAnkiやAnkiWebに関するものである場合は、代わりに[ユーザーフォーラム](https://forums.ankiweb.net)を使用してください。

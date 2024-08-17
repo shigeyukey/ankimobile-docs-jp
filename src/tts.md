@@ -1,29 +1,23 @@
-# Text to Speech
+# テキスト読み上げ
 
-AnkiMobile 2.0.56+ supports using TTS tags in card templates. Please see
-[the computer manual](https://docs.ankiweb.net/templates/fields.html#text-to-speech-for-individual-fields) for
-more information.
+AnkiMobile 2.0.56以降では、カードテンプレートでTTSタグを使用することができます。詳細については[コンピュータ版マニュアル](https://shigeyukey.github.io/anki-manual-jp/templates/fields.html#個別フィールドのテキスト読み上げ)を参照してください。
 
-To get the best quality sound, please go to the iOS Settings app, then:
+最高品質の音声を得るには、iOSの設定アプリに移動し、次の手順を実行してください：
 
-- Tap on Accessibility
+- アクセシビリティをタップ
 
-- Tap on VoiceOver
+- VoiceOverをタップ
 
-- Tap on Speech
+- スピーチをタップ
 
-- Tap on Voice
+- 声をタップ
 
-- Tap on the voice you want to use
+- 使用したい声をタップ
 
-- If there is an (Enhanced) version available, download it.
+- （Enhanced）バージョンが利用可能な場合は、ダウンロードしてください。
 
-Please note that Apple limit Siri to their own apps, so you will need to
-pick a voice other than Siri.
+AppleはSiriを自社のアプリに限定しているため、Siri以外の声を選択する必要があることに注意してください。
 
-The Voice section will only show options for your current language. To
-add voices for other languages, tap on "Rotor Languages", and after
-selecting another language, you will have a chance to download voices.
+「声」セクションには現在の言語のオプションのみが表示されます。他の言語の声を追加するには、「ローター言語」をタップし、別の言語を選択した後、声をダウンロードする機会があります。
 
-Like regular audio, text to speech will not play automatically when your
-device’s mute/vibrate switch is enabled.
+通常のオーディオと同様に、デバイスのミュート/バイブレートスイッチが有効になっている場合、テキスト読み上げは自動的に再生されません。

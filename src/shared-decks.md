@@ -1,33 +1,32 @@
-# Shared Decks
+# 共有デッキ
 
-## From AnkiWeb
+## AnkiWebから
 
-To download a shared deck directly to your mobile device:
+共有デッキをモバイルデバイスに直接ダウンロードするには：
 
-1. Ensure you’re connected to the internet.
+1. インターネットに接続していることを確認します。
 
-2. Tap **Add/Export** on the bottom left.
+2. 左下の **追加/エクスポート** をタップします。
 
-3. Choose **Shared Deck List**. AnkiWeb will open.
+3. **共有デッキリスト** を選択します。AnkiWebが開きます。
 
-4. Select a category, or type in a search.
+4. カテゴリを選択するか、検索を入力します。
 
-5. Tap on a deck you’d like to study.
+5. 学習したいデッキをタップします。
 
-6. Scroll down and tap **Download**.
+6. 下にスクロールして **ダウンロード** をタップします。
 
-7. Safari will start downloading the file
+7. Safariがファイルのダウンロードを開始します。
 
-8. When it’s done, tap on the blue download arrow in Safari, then **Downloads**.
+8. ダウンロードが完了したら、Safariの青いダウンロード矢印をタップし、**ダウンロード** を選択します。
 
-9. Tap on the file, and **Open in Anki** if prompted..
+9. ファイルをタップし、プロンプトが表示されたら **Ankiで開く** を選択します。
 
-10. When the import completes, your deck should be ready to study.
+10. インポートが完了すると、デッキが学習できるようになります。
 
-## Other Sources
+## その他のソース
 
-If you've downloaded a shared deck from another website, or received it in an email
-or messaging app:
+他のウェブサイトから共有デッキをダウンロードした場合や、メールやメッセージングアプリで受信した場合：
 
-1. Tap on the file.
-2. Locate the "Open In" or "Share" icon, and select AnkiMobile from the available options.
+1. ファイルをタップします。
+2. 「Open In」または「共有」アイコンを見つけ、利用可能なオプションからAnkiMobileを選択します。

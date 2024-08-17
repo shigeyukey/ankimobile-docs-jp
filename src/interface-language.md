@@ -1,37 +1,25 @@
-# User Interface Language
+# ユーザーインターフェースの言語
 
-AnkiMobile's interface has been translated into a few different languages. Your
-iOS settings control which language AnkiMobile will appear in.
+AnkiMobileのインターフェースは、いくつかの異なる言語に翻訳されています。AnkiMobileの表示言語は、iOSの設定によって制御されます。
 
-## Wrong Language
+## 言語が間違っている場合
 
-If AnkiMobile is not appearing in your desired language, please go to the **iOS
-Settings app > General > Language & Region**. In that section, you can specify
-the languages you prefer. If you want English to be used in AnkiMobile, please
-ensure English is listed above the language you don't want to see. If your
-native language is not English, you can put your native language first.
+AnkiMobileが希望する言語で表示されない場合は、**iOS設定アプリ > 一般 > 言語と地域** に移動してください。そのセクションで、希望する言語を指定できます。AnkiMobileで英語を使用したい場合は、英語が表示したくない言語の上にリストされていることを確認してください。母国語が英語でない場合は、母国語を最初に設定できます。
 
-You can see
-the list of available languages on AnkiMobile's app store page.
+利用可能な言語のリストは、AnkiMobileのApp Storeページで確認できます。
 
-## App-specific settings
+## アプリ固有の設定
 
-You can also control the language on a per-app basis. For
-example, if you want all apps on your device to appear in Chinese, but want Anki
-to show in English, you can do this by going to the Settings app.
+アプリごとに言語を制御することもできます。例えば、デバイス上のすべてのアプリを中国語で表示し、Ankiだけを英語で表示したい場合は、設定アプリでこれを行うことができます。
 
-1. Go to the **iOS Settings app > General > Language & Region**.
-2. If only one language is shown in the **Preferred Language Order** section,
-   add the other language you wish to use as the second preference. If you have
-   two or more languages shown already, you can skip this step.
-3. Go back to the first screen of the iOS Settings app.
-4. Scroll down to the list of apps at the bottom, and locate Anki.
-5. Tap on Anki, and choose the language you wish to use.
+1. **iOS設定アプリ > 一般 > 言語と地域** に移動します。
+2. **優先する言語の順序** セクションに1つの言語しか表示されていない場合は、使用したい他の言語を2番目の優先言語として追加します。すでに2つ以上の言語が表示されている場合は、このステップをスキップできます。
+3. iOS設定アプリの最初の画面に戻ります。
+4. 画面の下部にあるアプリのリストまでスクロールし、Ankiを見つけます。
+5. Ankiをタップし、使用したい言語を選択します。
 
-Some users have reported that AnkiMobile did not appear in the iOS Settings screen
-until they went into AnkiMobile's **Preferences > Review > Notifications** section and
-enabled notifications.
+一部のユーザーから、AnkiMobileがiOS設定画面に表示されないという報告があります。その場合は、AnkiMobileの **設定 > レビュー > 通知** セクションに移動し、通知を有効にしてください。
 
-## New Translations
+## 新しい翻訳
 
-If you would like to help translate AnkiMobile into another language, please see <https://translating.ankiweb.net>
+AnkiMobileを他の言語に翻訳するのを手伝いたい場合は、<https://translating.ankiweb.net> を参照してください。

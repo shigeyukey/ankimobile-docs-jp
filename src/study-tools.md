@@ -1,221 +1,168 @@
-# Study Tools
+# 学習ツール
 
-The tools screen will open when you tap on the gear/cog icon in the
-study screen.
+ツール画面は、学習画面でギア/コグアイコンをタップすると開きます。
 
-On the top right, there are buttons that will adjust the text size on
-your cards.
+右上には、カードのテキストサイズを調整するボタンがあります。
 
-The "Frequent Actions" section contains some commonly used actions. You
-can rearrange the actions there or remove actions by holding your finger
-on a button for a second or so.
+「頻繁に使用するアクション」セクションには、よく使用されるアクションが含まれています。ボタンを1秒ほど押し続けることで、アクションの並べ替えや削除ができます。
 
-Below the "Frequent Actions" section is a list of all available actions
-in AnkiMobile. You can add these actions to the "Frequent Actions"
-section by long-pressing on them.
+「頻繁に使用するアクション」セクションの下には、AnkiMobileで利用可能なすべてのアクションのリストがあります。これらのアクションを長押しすることで、「頻繁に使用するアクション」セクションに追加できます。
 
-## Actions
+## アクション
 
-The following actions can be run from the tools screen, or by assigning
-them to a tap, swipe, or the top bar in the preferences.
+以下のアクションは、ツール画面から実行するか、設定でタップ、スワイプ、トップバーに割り当てることができます。
 
-**Add**\
-Opens a new window to add cards to the deck.
+**追加**\
+カードをデッキに追加するための新しいウィンドウを開きます。
 
-**Answer "Again"**\
-When the answer screen is shown, choose the red button, indicating you
-wish to review the card again soon. This is useful when you forgot a
-card or wish to review it more frequently.
+**「もう一度」回答**\
+回答画面が表示されたときに赤いボタンを選択します。これは、カードをすぐに再度レビューしたいことを示します。カードを忘れた場合や、より頻繁にレビューしたい場合に便利です。
 
-**Answer "Hard"**\
-When the answer screen is shown and there are four buttons, choose the
-second button from the left, indicating you found the card hard to
-remember.
+**「難しい」回答**\
+回答画面が表示され、4つのボタンがある場合、左から2番目のボタンを選択します。これは、カードを覚えるのが難しいと感じたことを示します。
 
-**Answer "Good"**\
-When the answer screen is shown, choose the green button. This is the
-button you should end up using the most.
+**「良い」回答**\
+回答画面が表示されたときに緑のボタンを選択します。これは、最も頻繁に使用するボタンです。
 
-**Answer "Easy"**\
-When the answer screen is shown, choose the button on the right,
-indicating you found the card too easy to remember and would like a much
-longer delay.
+**「簡単」回答**\
+回答画面が表示されたときに右側のボタンを選択します。これは、カードを覚えるのが簡単すぎると感じ、次のレビューまでの間隔を長くしたいことを示します。
 
-**Auto Advance**\
-Allows you to automatically reveal the answer, and automatically rate or
-bury cards. You can customize the behaviour in the deck's study options.
+**自動進行**\
+答えを自動的に表示し、カードを自動的に評価または埋めることができます。デッキの学習オプションで動作をカスタマイズできます。
 
-**Bottom Bar**\
-Hides or shows the bottom bar, where the answer buttons and card counts
-are shown.
+**ボトムバー**\
+回答ボタンとカード数が表示される下部バーを隠すか表示します。
 
-**Browse**\
-Opens the card browser, where you can search for and modify cards.
+**ブラウズ**\
+カードブラウザを開き、カードの検索や修正ができます。
 
-**Bury Card**\
-Hides the current card from review. It will be shown again the next day,
-or when you manually unbury cards.
+**カードを埋める**\
+現在のカードをレビューから隠します。翌日、または手動でカードを埋め戻したときに再び表示されます。
 
-**Bury Note**\
-Hides the current note from review. It will be shown again the next day,
-or when you manually unbury cards.
+**ノートを埋める**\
+現在のノートをレビューから隠します。翌日、または手動でノートを埋め戻したときに再び表示されます。
 
-**Card Info**\
-Shows information about the current card.
+**カード情報**\
+現在のカードに関する情報を表示します。
 
-**Card Template**\
-Allows you to edit the card template, changing which fields are shown on
-the front and back of the card, and the card styling.
+**カードテンプレート**\
+カードテンプレートを編集し、カードの表と裏に表示されるフィールドやカードのスタイリングを変更できます。
 
-**Current Audio +5s**\
-Jump forward 5 seconds in the currently playing audio.
+**現在のオーディオ +5秒**\
+現在再生中のオーディオを5秒進めます。
 
-**Current Audio -5s**\
-Jump backward 5 seconds in the currently playing audio.
+**現在のオーディオ -5秒**\
+現在再生中のオーディオを5秒戻します。
 
-**Custom Study**\
-Allows you to study outside of the normal schedule. Please see the
-documentation of the computer version for more information on custom
-study presets.
+**カスタム学習**\
+通常のスケジュール外で学習することができます。カスタム学習プリセットの詳細については、コンピュータ版のドキュメントを参照してください。
 
-**Deck Statistics**\
-Shows graphs and statistics about your deck or collection.
+**デッキ統計**\
+デッキやコレクションに関するグラフや統計情報を表示します。
 
-**Decks**\
-Returns to the deck list.
+**デッキ**\
+デッキリストに戻ります。
 
-**Delete Note**\
-Deletes the currently shown note and all of its cards. If you’re not
-studying in multiple directions, this will just delete a single card.
+**ノートを削除**\
+現在表示されているノートとそのすべてのカードを削除します。複数の方向で学習していない場合、これは単一のカードを削除するだけです。
 
-**Edit**\
-Edits the current card.
+**編集**\
+現在のカードを編集します。
 
-**Empty**\
-Removes all cards from the current filtered deck.
+**空にする**\
+現在のフィルターデッキからすべてのカードを削除します。
 
-**Filter/Cram**\
-Allows you to create a temporary deck based on search criteria such as
-"tag:hard". Please see the documentation of the computer version for
-more information on filtered decks.
+**フィルター/詰め込み**\
+「tag:hard」などの検索条件に基づいて一時的なデッキを作成できます。フィルターデッキの詳細については、コンピュータ版のドキュメントを参照してください。
 
-**Flag 1 - 4**\
-Sets or clears the card’s flag. Flagging cards allows you to find them
-easily in the browse screen later.
+**フラグ 1 - 4**\
+カードのフラグを設定またはクリアします。カードにフラグを付けることで、後でブラウズ画面で簡単に見つけることができます。
 
-**Mark**\
-Adds a tag called "Marked" to the current note, so it can be easily
-found in a search.
+**マーク**\
+現在のノートに「Marked」というタグを追加し、検索で簡単に見つけられるようにします。
 
-**Mark & Bury**\
-Marks the card, then buries it.
+**マークして埋める**\
+カードにマークを付けてから埋めます。
 
-**Mark & Suspend**\
-Marks the card, then suspends it.
+**マークして一時停止**\
+カードにマークを付けてから一時停止します。
 
-**Night Mode**\
-Switch the interface between light and dark mode, if you don't want to
-use the system setting.
+**ナイトモード**\
+インターフェースをライトモードとダークモードの間で切り替えます。システム設定を使用したくない場合に便利です。
 
-**Off**\
-Don’t do anything. Useful if you want to disable certain swipes, tap
-zones and so on. Not shown in the tools screen.
+**オフ**\
+何もしません。特定のスワイプやタップゾーンなどを無効にしたい場合に便利です。ツール画面には表示されません。
 
-**Pause Audio**\
-Temporarily stops or restarts the currently playing audio file.
+**オーディオの一時停止**\
+現在再生中のオーディオファイルを一時停止または再開します。
 
-**Rebuild**\
-When in a filtered or custom study deck, rerun the search to fetch any
-cards that may newly match the criteria.
+**再構築**\
+フィルターデッキやカスタム学習デッキにいる場合、検索を再実行して新たに条件に一致するカードを取得します。
 
-**Record Voice**\
-Allows you to create a temporary recording of your voice, to compare it
-to audio that you have on your card.
+**音声の録音**\
+一時的に自分の声を録音し、カードにあるオーディオと比較することができます。
 
-**Replay Audio**\
-Replay the card’s audio. You can customize whether the audio in the
-question is replayed while the answer is shown in the computer Anki.
+**オーディオの再生**\
+カードのオーディオを再生します。コンピュータ版のAnkiでは、答えが表示されている間に質問のオーディオを再生するかどうかをカスタマイズできます。
 
-**Reset Card**\
-Turn the current card back into a new card.
+**カードのリセット**\
+現在のカードを新しいカードに戻します。
 
-**Scratchpad**\
-Show or hide the writing pad, allowing you to practice writing
-characters during review. Anki will remember the on/off state for each
-card type. You can tap once on the undo button to undo a stroke, or hold
-on it for a second to clear all strokes. On devices that support
-pressure sensitivity (iPhone 6S, iPad w/ Apple Pencil), the stroke width
-will depend on how hard you press.
+**スクラッチパッド**\
+書き込みパッドを表示または非表示にします。レビュー中に文字を書く練習ができます。Ankiはカードタイプごとにオン/オフの状態を記憶します。元に戻すボタンを一度タップするとストロークを元に戻し、1秒間押し続けるとすべてのストロークをクリアします。圧力感知に対応しているデバイス（iPhone 6S、Apple Pencil対応のiPad）では、ストロークの幅は押す強さに依存します。
 
-**Scratchpad Size**\
-Alters the size of the scratchpad window.
+**スクラッチパッドのサイズ**\
+スクラッチパッドウィンドウのサイズを変更します。
 
-**Scroll Up**\
-**Scroll Down**\
-When card content larger than one screen, scrolls up or down. Useful when using a gamepad without an analog control stick.
+**上にスクロール**\
+**下にスクロール**\
+カードの内容が1画面以上の場合、上または下にスクロールします。アナログコントロールスティックのないゲームパッドを使用する場合に便利です。
 
-**Set Due Date**\
-Make the card a review card if it is not already one, and make it due in
-the number of days you specify. If you choose 0 days, the card will be
-ready to review immediately.
+**期日を設定**\
+カードがまだレビューカードでない場合はレビューカードにし、指定した日数後に期限が来るようにします。0日を選択すると、カードはすぐにレビュー可能になります。
 
-**Show Answer**\
-Reveals the answer when a card’s question is shown.
+**答えを表示**\
+カードの質問が表示されているときに答えを表示します。
 
-**Study Options**\
-Show the study options screen.
+**学習オプション**\
+学習オプション画面を表示します。
 
-**Suspend Card**\
-Prevent current card from being shown during review until you unsuspend
-it via the search action.
+**カードを一時停止**\
+現在のカードをレビュー中に表示されないようにします。検索アクションを使用して再開するまで表示されません。
 
-**Suspend Note**\
-Prevent all cards of current note from being shown during review until
-you unsuspend them via the search action.
+**ノートを一時停止**\
+現在のノートのすべてのカードをレビュー中に表示されないようにします。検索アクションを使用して再開するまで表示されません。
 
-**Top bar**\
-Show or hide the bar at the top of the screen.
+**トップバー**\
+画面上部のバーを表示または非表示にします。
 
-**Tools**\
-Show the tools screen.
+**ツール**\
+ツール画面を表示します。
 
-**Unbury Deck**\
-Makes any buried cards in the current deck ready for review again.
+**デッキの埋め戻し**\
+現在のデッキで埋められたカードを再びレビュー可能にします。
 
-**Undo**\
-Undoes the last review.
+**元に戻す**\
+最後のレビューを元に戻します。
 
-**User Action 1-8**
+**ユーザーアクション 1-8**
 
-From 2.0.88+. An advanced feature that allows you to trigger JavaScript in the review
-screen. Please note we can not provide any assistance with using this feature, as it uses
-[JavaScript](https://docs.ankiweb.net/templates/styling.html#javascript).
+バージョン2.0.88以降の機能です。レビュー画面でJavaScriptをトリガーする高度な機能です。この機能の使用に関するサポートは提供できませんので、ご了承ください。詳細は[JavaScript](https://shigeyukey.github.io/anki-manual-jp/templates/styling.html#javascript)をご覧ください。
 
-Some shared decks provide keyboard shortcuts to perform actions like revealing a hint,
-or revealing the next cloze deletion. If that action is available as a public function,
-you can tell AnkiMobile to call it when a user action is triggered. This makes it possible
-to trigger the action with your gamepad instead.
+一部の共有デッキでは、ヒントを表示したり、次のクローズ削除を表示したりするアクションを実行するためのキーボードショートカットが提供されています。そのアクションが公開関数として利用可能な場合、ユーザーアクションがトリガーされたときにAnkiMobileにそれを呼び出させることができます。これにより、ゲームパッドでアクションをトリガーすることが可能になります。
 
-To define a user action, you must know the function the card template provides. If you
-know it provides a `revealNext()` function for example, you can tell AnkiMobile to call
-it with the following code:
+ユーザーアクションを定義するには、カードテンプレートが提供する関数を知っている必要があります。例えば、`revealNext()` 関数を提供している場合、以下のコードを使用してAnkiMobileにそれを呼び出させることができます：
 
 ```
 var userJs1 = revealNext;
 ```
 
-The author of the shared deck or template may be able to tell you if a function is
-available.
+共有デッキやテンプレートの作者が、関数が利用可能かどうかを教えてくれるかもしれません。
 
-Please note that standard Anki templates do not provide any actions - this feature
-is only useful for triggering actions you have written yourself, and ones that certain
-shared decks/templates provide.
+標準のAnkiテンプレートはアクションを提供しないことに注意してください。この機能は、あなた自身が作成したアクションや、特定の共有デッキ/テンプレートが提供するアクションをトリガーする場合にのみ役立ちます。
 
-# Study Options
+# 学習オプション
 
-The study options can be accessed from the tools screen.
-Almost all the options available in the computer version can also be
-adjusted in AnkiMobile. For a description of what everything does,
-please see the [computer documentation](https://docs.ankiweb.net/deck-options.html).
-While some of the options have different wording, the behaviour is the
-same as the computer version.
+学習オプションはツール画面からアクセスできます。
+コンピュータ版で利用可能なほとんどすべてのオプションは、AnkiMobileでも調整可能です。各オプションの説明については、[コンピュータ版のドキュメント](https://shigeyukey.github.io/anki-manual-jp/deck-options.html)を参照してください。
+一部のオプションは異なる表現をしていますが、動作はコンピュータ版と同じです。

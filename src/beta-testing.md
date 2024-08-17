@@ -1,19 +1,19 @@
-# AnkiMobile beta testing
+# AnkiMobile ベータテスト
 
-## Joining
+## 参加方法
 
-Beta testing is open to existing AnkiMobile users. To join the beta testing program, you must be using the latest version from the app store, and you must be syncing to AnkiWeb.
+ベータテストは既存のAnkiMobileユーザーに開放されています。ベータテストプログラムに参加するには、最新バージョンをApp Storeからダウンロードし、AnkiWebに同期している必要があります。
 
-To join, please post a [private ticket](https://anki.tenderapp.com/discussions/private) requesting an invite.  If you sync AnkiMobile with a different email address, please include your AnkiWeb ID in the message as well.
+参加するには、[プライベートチケット](https://anki.tenderapp.com/discussions/private)を投稿して招待をリクエストしてください。AnkiMobileを別のメールアドレスで同期している場合は、メッセージにAnkiWeb IDも含めてください。
 
-## Switching to/from stable
+## 安定版への切り替え
 
-Switching between beta versions and stable versions will preserve any cards you have on your device. But just to be safe, please sync any changes you've made to AnkiWeb before switching versions.
+ベータ版と安定版の間を切り替えても、デバイス上のカードは保持されます。ただし、安全のためにバージョンを切り替える前にAnkiWebに変更を同期してください。
 
-Once you've received an invite, please accept it and install the TestFlight app from the app store. Using the TestFlight app, you can download the latest beta. As new beta versions are released, you will receive a notification, and can upgrade as you please.
+招待を受け取ったら、それを受け入れてApp StoreからTestFlightアプリをインストールしてください。TestFlightアプリを使用して最新のベータ版をダウンロードできます。新しいベータ版がリリースされると通知が届き、必要に応じてアップグレードできます。
 
-If you would like to revert to the store version, you can go to AnkiMobile's app store page and tap on the cloud icon. Once you switch back to the store version, you will receive normal app updates as you did before.
+ストアバージョンに戻りたい場合は、AnkiMobileのApp Storeページに移動し、クラウドアイコンをタップしてください。ストアバージョンに戻ると、以前と同様に通常のアプリ更新を受け取ることができます。
 
-If you no longer wish to beta test and do not want to receive further notifications, you can remove yourself using the TestFlight app.
+ベータテストを終了し、通知を受け取りたくない場合は、TestFlightアプリを使用して自分を削除できます。
 
-If you experience any issues with the betas, please either post a [private ticket](https://anki.tenderapp.com/discussions/private), or post on the [Beta Testing section](https://forums.ankiweb.net/c/beta-testing/13) of the forums.
+ベータ版で問題が発生した場合は、[プライベートチケット](https://anki.tenderapp.com/discussions/private)を投稿するか、フォーラムの[ベータテストセクション](https://forums.ankiweb.net/c/beta-testing/13)に投稿してください。

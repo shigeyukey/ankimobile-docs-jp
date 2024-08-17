@@ -1,39 +1,23 @@
-# The Deck List
+# デッキリスト
 
-The deck list is the screen you see when you start AnkiMobile. It
-displays a list of your card decks, and provides buttons for performing
-various actions.
+デッキリストは、AnkiMobileを起動したときに表示される画面です。カードデッキのリストが表示され、さまざまな操作を行うためのボタンが提供されています。
 
-Next to each deck, two numbers are displayed. The top, green number
-corresponds to how many cards are due to be reviewed again today. On a
-deck you’ve never studied before, there won’t be any cards waiting for
-review. The second, blue number, corresponds to how many new cards you
-have to learn today. Anki will introduce 20 new cards a day by default,
-and you can customize this number in the deck options if you’d like.
+各デッキの横には2つの数字が表示されます。上の緑色の数字は、今日再度レビューする予定のカードの数を表しています。まだ一度も学習していないデッキには、レビュー待ちのカードはありません。2つ目の青色の数字は、今日学習する新しいカードの数を表しています。Ankiはデフォルトで1日に20枚の新しいカードを紹介しますが、この数はデッキオプションでカスタマイズできます。
 
-To study cards in a deck, simply tap on the deck, and AnkiMobile will
-switch to study mode.
+デッキ内のカードを学習するには、デッキをタップするだけで、AnkiMobileが学習モードに切り替わります。
 
-If you wish to rename or delete a deck, swipe your finger from right to
-left over it, and buttons will appear.
+デッキの名前を変更したり削除したりする場合は、デッキを右から左にスワイプするとボタンが表示されます。
 
-At the top of the screen, you’ll see four buttons.
+画面の上部には4つのボタンがあります。
 
-- The question mark opens this help page
+- クエスチョンマークはこのヘルプページを開きます。
 
-- The graph icon opens the deck statistics screen.
+- グラフアイコンはデッキ統計画面を開きます。
 
-- The magnifying glass opens the card browser.
+- 虫眼鏡アイコンはカードブラウザを開きます。
 
-- The gear/cog opens the preferences screen.
+- ギア/コグアイコンは設定画面を開きます。
 
-On the bottom of the screen, there are two more buttons. **Add/Export**
-allows you to download shared decks, add/create an empty deck, and
-import/export .apkg files from iTunes. **Synchronize** synchronizes your
-cards with the cloud.
+画面の下部にはさらに2つのボタンがあります。**追加/エクスポート** は共有デッキのダウンロード、空のデッキの追加/作成、およびiTunesからの.apkgファイルのインポート/エクスポートを行います。**同期** はカードをクラウドと同期します。
 
-The synchronize button will change color if you have made changes that
-need to be synchronized to AnkiWeb, or if changes are waiting on AnkiWeb
-that need to be synchronized to the device. One of the changes that Anki
-synchronizes to other clients is the current deck, so tapping on a deck
-will change the button color, even if you do not study any cards.
+同期ボタンは、AnkiWebに同期する必要がある変更を行った場合や、AnkiWebに変更がありデバイスに同期する必要がある場合に色が変わります。Ankiが他のクライアントと同期する変更の1つは現在のデッキですので、デッキをタップすると、カードを学習しなくてもボタンの色が変わります。

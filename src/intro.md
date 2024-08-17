@@ -1,21 +1,15 @@
-# Introduction
+# はじめに
 
-Thank you for buying AnkiMobile! Anki development would not be able to
-continue without your support, so it is greatly appreciated.
+AnkiMobileをご購入いただきありがとうございます！皆様のご支援がなければAnkiの開発は続けられませんので、心より感謝申し上げます。
 
-Some basic concepts covered in the [computer manual](https://docs.ankiweb.net) are not repeated
-here, so please check it out if you have not already done so.
+[コンピュータ版マニュアル](https://docs.ankiweb.net)でカバーされている基本的な概念の一部はここでは繰り返しませんので、まだご覧になっていない場合はぜひご確認ください。
 
-## Legal
+## 法的事項
 
-**Privacy**
+**プライバシー**
 
-No data you store in AnkiMobile is shared with us or other Anki users by
-default. If you use the optional synchronization feature, please see
-[AnkiWeb’s privacy policy](https://ankiweb.net/account/privacy).
+AnkiMobileに保存したデータは、デフォルトでは私たちや他のAnkiユーザーと共有されません。オプションの同期機能を使用する場合は、[AnkiWebのプライバシーポリシー](https://ankiweb.net/account/privacy)をご覧ください。
 
-**Trademarks**
+**商標**
 
-Apple, the Apple logo, iPhone, iPad and iPod Touch are trademarks of
-Apple Inc., registered in the U.S. and other countries. App Store is a
-service mark of Apple Inc.
+Apple、Appleのロゴ、iPhone、iPad、およびiPod Touchは、米国および他の国々で登録されたApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。

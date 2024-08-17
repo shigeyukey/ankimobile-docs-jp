@@ -1,92 +1,66 @@
-# URL Schemes
+# URLスキーム
 
-AnkiMobile supports URL schemes for opening third party dictionaries,
-and for adding content to AnkiMobile from other applications.
+AnkiMobileは、サードパーティの辞書を開くためや、他のアプリケーションからAnkiMobileにコンテンツを追加するためのURLスキームをサポートしています。
 
-## AnkiMobile’s URL Schemes
+## AnkiMobileのURLスキーム
 
-### Adding Notes
+### ノートの追加
 
-A 'URL Scheme' is like a link to a website, but it instead links to an
-app. A simple example is:
+「URLスキーム」とは、ウェブサイトへのリンクのようなもので、アプリへのリンクです。簡単な例は次のとおりです：
 
     anki://
 
-If you type this into Safari on your device, you’ll see AnkiMobile open
-up.
+これをデバイスのSafariに入力すると、AnkiMobileが開きます。
 
-From 2.0.30 onwards, AnkiMobile provides a scheme for adding new notes
-to your collection. This can be used with dictionary apps that support
-calling other apps via URL schemes, and with automation apps like
-Workflow.
+バージョン2.0.30以降、AnkiMobileはコレクションに新しいノートを追加するためのスキームを提供しています。これは、URLスキームを介して他のアプリを呼び出すことをサポートする辞書アプリや、Workflowのような自動化アプリで使用できます。
 
-The scheme to add cards looks like this:
+カードを追加するためのスキームは次のようになります：
 
     anki://x-callback-url/addnote?profile=User%201&type=Basic&deck=Default&fldFront=front%20text&fldBack=back%20text
 
-The first part must always be there:
+最初の部分は常に必要です：
 
     anki://x-callback-url/addnote?
 
-After the first part, keys and values are separated by an ampersand. The
-following keys must always be provided:
+最初の部分の後、キーと値はアンパサンドで区切られます。以下のキーは常に提供する必要があります：
 
-- `type=<note type name>`
+- `type=<ノートタイプ名>`
 
-- `deck=<deck name>`
-  - Separate nested decks with `::`
-    - `deck=<deck name>::<sub deck name>`
+- `deck=<デッキ名>`
+  - ネストされたデッキは `::` で区切ります
+    - `deck=<デッキ名>::<サブデッキ名>`
 
-Fields are entered by prefixing their name with "fld". So if your first
-field is called "Text", the key would be "fldText". The field text is
-interpreted as HTML, so if you wanted a newline in the text you’d use
-something like "line 1&lt;br&gt;line 2".
+フィールドは名前の前に "fld" を付けて入力します。例えば、最初のフィールドが "Text" と呼ばれる場合、キーは "fldText" になります。フィールドのテキストはHTMLとして解釈されるため、テキストに改行を入れたい場合は "line 1&lt;br&gt;line 2" のようにします。
 
-Special characters in the URL must be escaped. For example, if you have
-spaces in a field, they must be represented with `%20`. If you’re using
-the Shortcuts app, there is a URL encode action which you may find
-useful.
+URL内の特殊文字はエスケープする必要があります。例えば、フィールドにスペースが含まれている場合、それは `%20` で表現する必要があります。Shortcutsアプリを使用している場合、URLエンコードアクションが役立つかもしれません。
 
-The remaining keys are optional:
+残りのキーはオプションです：
 
-- `profile=<profile name>`
+- `profile=<プロファイル名>`
 
-If provided, adding will fail if the provided profile is not currently active.
+  指定された場合、指定されたプロファイルが現在アクティブでないと追加は失敗します。
 
-- `tags=<tags separated by space>`
+- `tags=<スペースで区切られたタグ>`
 
-- `dupes=1` - if provided, allow a note to be added even if the same
-  content is on an existing note.
+- `dupes=1` - 指定された場合、既存のノートに同じ内容があってもノートを追加できます。
 
-- `x-success=<url scheme for another app>` - use to automatically
-  return to another app after the note is added.
+- `x-success=<他のアプリのURLスキーム>` - ノートが追加された後に自動的に他のアプリに戻るために使用します。
 
-If a field you provide is a link to an image or audio file, AnkiMobile
-will automatically download that media and place a link to it in the
-field. Eg:
+提供されたフィールドが画像や音声ファイルへのリンクである場合、AnkiMobileはそのメディアを自動的にダウンロードし、フィールドにリンクを配置します。例：
 
     fldFront=http://example.com/image.jpg
 
-The link will only be downloaded if it ends with a recognized file
-extension. If your link is to a dynamic webpage, you can add a fake
-argument with the extension at the end, eg
-`http://example.com/getImage?imgID=1234&fakePath=foo.jpg`. Be careful to
-escape the URL before including it in the URL scheme, as otherwise ? and
-& characters will be interpreted as part of the URL scheme instead of
-the URL.
+リンクは、認識されたファイル拡張子で終わる場合にのみダウンロードされます。リンクが動的なウェブページの場合、末尾に拡張子を持つ偽の引数を追加できます。例えば、`http://example.com/getImage?imgID=1234&fakePath=foo.jpg` のようにします。URLスキームに含める前にURLをエスケープするように注意してください。そうしないと、`?` や `&` の文字がURLスキームの一部として解釈されてしまいます。
 
-### Info for Adding
+### 追加に関する情報
 
-There is a separate URL scheme that third-party apps can use to get your profile, deck
-and notetype names, so that they can be presented to you in a friendly manner.
+サードパーティのアプリがプロファイル、デッキ、およびノートタイプの名前を取得するための別のURLスキームがあります。これにより、ユーザーにわかりやすい形で情報を提示できます。
 
-The app should invoke the following URL:
+アプリは次のURLを呼び出す必要があります：
 
 `anki://x-callback-url/infoForAdding?x-success=...`
 
-If the user authorises the request, the requested data will be available on the clipboard,
-and can be retrieved using the following. You should clear the clipboard after retrieving
-the data.
+ユーザーがリクエストを承認すると、要求されたデータがクリップボードに保存され、以下の方法で取得できます。データを取得した後は、クリップボードをクリアする必要があります。
 
 ```swift
 let PASTEBOARD_TYPE = "net.ankimobile.json"
@@ -97,65 +71,42 @@ if let data = UIPasteboard.general.data(forPasteboardType: PASTEBOARD_TYPE) {
 }
 ```
 
-### Search
+### 検索
 
-From AnkiMobile 2.0.90+. Allows you to open the search string with the provided
-search.
+AnkiMobile 2.0.90以降で利用可能です。指定された検索文字列で検索を開くことができます。
 
 `anki://x-callback-url/search?query=...`
 
-### Sync
+### 同期
 
-From AnkiMobile 2.0.90+. Performs the same action as tapping on the Sync button.
+AnkiMobile 2.0.90以降で利用可能です。同期ボタンをタップするのと同じ動作を行います。
 
 `anki://x-callback-url/sync`
 
-## Dictionary Links
+## 辞書リンク
 
-The desktop version of Anki provides the ability to open a web page
-based on the contents of a field, for easily creating a link to an
-online dictionary site. This is documented [in this section](https://docs.ankiweb.net/templates/fields.html#dictionary-links) of
-the manual, though please start from the [cards & templates](https://docs.ankiweb.net/templates/intro.html) section
-as the above link assumes you have read it.
+デスクトップ版のAnkiでは、フィールドの内容に基づいてウェブページを開く機能が提供されており、オンライン辞書サイトへのリンクを簡単に作成できます。これはマニュアルの[このセクション](https://shigeyukey.github.io/anki-manual-jp/templates/fields.html#辞書リンク)に記載されていますが、まず[カードとテンプレート](https://shigeyukey.github.io/anki-manual-jp/templates/intro.html)のセクションから始めてください。上記のリンクはその前提で書かれています。
 
-Like the desktop, AnkiMobile supports links to dictionary websites. In
-addition to that, you can also link to different dictionary apps that
-you have installed on your device using a URL scheme.
+デスクトップ版と同様に、AnkiMobileも辞書ウェブサイトへのリンクをサポートしています。さらに、URLスキームを使用してデバイスにインストールされている異なる辞書アプリへのリンクも作成できます。
 
-Some dictionary apps provide a URL scheme that allows you to provide a
-particular phrase to search for. For example, an app called iDict+
-allows the following type of URL:
+一部の辞書アプリは、特定のフレーズを検索するためのURLスキームを提供しています。例えば、iDict+というアプリは以下のようなURLを許可しています：
 
     idictplus://?search=mysearchtext
 
-If you have iDict+ installed and type that into Safari, iDict+ should
-open up and immediately search for "mysearchtext".
+iDict+がインストールされている場合、SafariにこのURLを入力すると、iDict+が開き、「mysearchtext」をすぐに検索します。
 
-iDict+ also supports passing a return link. We can replace the above
-with:
+iDict+はリターンリンクを渡すこともサポートしています。上記を次のように置き換えることができます：
 
     idictplus://?search=txt&scheme=anki://
 
-If you type that into Safari, it will search for "mysearchtext" like
-before, but will also provide a "return" button that when pressed will
-open up Anki.
+これをSafariに入力すると、以前と同様に「mysearchtext」を検索しますが、「リターン」ボタンも表示され、押すとAnkiが開きます。
 
-By taking that text and combining it with the instructions for the
-desktop version linked above, it’s possible to have a link on your cards
-that searches for a word in another app, and then allows you to return
-to Anki when you’re done.
+このテキストを取り、上記のデスクトップ版の指示と組み合わせることで、カード上に他のアプリで単語を検索し、完了したらAnkiに戻るリンクを作成することが可能です。
 
-Unfortunately, there is no standard for URL schemes: some apps implement
-them, some don’t, and the way they implement them can different. For
-example, in the app called "Kotoba!", the URL scheme is:
+残念ながら、URLスキームには標準がありません。一部のアプリはそれを実装しており、一部はしておらず、実装方法も異なる場合があります。例えば、「Kotoba!」というアプリでは、URLスキームは次のようになります：
 
     kotoba://dictionary?word=mysearchtext
 
-Note how not only the app name differs but also the text after it, and
-how Kotoba! doesn’t provide the ability to automatically return to the
-app that opened it, meaning that you need to double tap the home button
-and manually return to AnkiMobile.
+アプリ名だけでなく、その後のテキストも異なることに注意してください。また、Kotoba!は開いたアプリに自動的に戻る機能を提供していないため、ホームボタンをダブルタップしてAnkiMobileに手動で戻る必要があります。
 
-Some dictionary apps publish their URL scheme in their documentation. If
-you’re using a dictionary app that doesn’t, please contact the authors
-and ask them for more information.
+一部の辞書アプリは、ドキュメントでURLスキームを公開しています。使用している辞書アプリが公開していない場合は、著者に連絡して詳細を尋ねてください。

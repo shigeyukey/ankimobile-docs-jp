@@ -1,16 +1,16 @@
 [book]
 authors = ["Ankitects Pty Ltd and contributors"]
-language = "en"
+language = "jp"
 multilingual = false
 src = "src"
-title = "AnkiMobile Manual"
+title = "AnkiMobile マニュアル"
 
 [build]
 create-missing = true
 
 [output.html]
 # no-section-label = true
-git-repository-url = "https://github.com/ankitects/ankimobile-docs/"
+git-repository-url = "https://https://github.com/shigeyukey/ankimobile-docs-jp/"
 
 [preprocessor.toc]
 command = "mdbook-toc"

@@ -1,10 +1,8 @@
-# Night Mode Styling
+# ナイトモードのスタイリング
 
-By using the Edit Card Template action, it is possible to customize how
-cards appear when night mode/dark mode is enabled.
+カードテンプレート編集アクションを使用すると、ナイトモード/ダークモードが有効になっているときのカードの表示方法をカスタマイズすることができます。
 
-If you wanted a grey background instead of black, you could use
-something like:
+黒ではなく灰色の背景にしたい場合は、次のようにします：
 
 ```css
 .card.nightMode {
@@ -12,8 +10,7 @@ something like:
 }
 ```
 
-If you have a 'myclass' style, the following would show the text in
-yellow when night mode is enabled:
+「myclass」スタイルがある場合、ナイトモードが有効になっているときにテキストを黄色で表示するには、次のようにします：
 
 ```css
 .nightMode .myclass {

@@ -1,116 +1,77 @@
-# Collection Transfer
+# コレクション転送
 
-If you don’t have regular internet access, it’s still possible to copy
-your collection back and forth between devices, though the process is
-not as convenient.
+定期的にインターネットにアクセスできない場合でも、デバイス間でコレクションをコピーすることは可能ですが、そのプロセスはあまり便利ではありません。
 
-Collection transfer works by importing or exporting **all your
-decks at once**, in a special file called `collection.colpkg`.
-You can export that file on one device, copy it to another device, and
-import it there.
+コレクション転送は、**すべてのデッキを一度に**特別なファイル `collection.colpkg` にエクスポートまたはインポートすることで機能します。そのファイルを一つのデバイスでエクスポートし、別のデバイスにコピーしてインポートすることができます。
 
-When you import a collection file, any existing content you have is
-replaced with the contents of the file - it is a one-way transfer
-from your other device.
+コレクションファイルをインポートすると、既存のコンテンツはファイルの内容に置き換えられます。これは他のデバイスからの一方向の転送です。
 
-This means that unlike syncing via AnkiWeb, you can’t make changes from
-two locations at once and then merge them - you need to make sure you’ve
-imported any recent changes from your other device before you make
-changes, or you’ll end up losing the changes made on one device.
+これは、AnkiWebを介した同期とは異なり、二つの場所から同時に変更を加えてそれらをマージすることはできないことを意味します。変更を加える前に他のデバイスから最近の変更をインポートする必要があります。そうしないと、一つのデバイスで行った変更が失われてしまいます。
 
-A workflow you would typically use is to export your collection
-from your mobile device and import it into the computer version, make
-modifications (such as importing a shared deck you downloaded to your
-computer), and then export your collection and import it back into your
-mobile device.
+通常使用するワークフローは、モバイルデバイスからコレクションをエクスポートし、コンピュータ版にインポートして修正を加え（例えば、コンピュータにダウンロードした共有デッキをインポートするなど）、その後コレクションをエクスポートしてモバイルデバイスにインポートするというものです。
 
-Exporting individual decks is not currently possible, but is planned
-for the future.
+個々のデッキのエクスポートは現在できませんが、将来的には可能になる予定です。
 
-## Computer to iPhone/iPad
+## コンピュータからiPhone/iPadへ
 
-### Export the File
+### ファイルのエクスポート
 
-On your computer:
+コンピュータで:
 
-1. Open the computer version of Anki.
+1. コンピュータ版のAnkiを開きます。
 
-2. Choose **File>Export** from the menu.
+2. メニューから **ファイル > エクスポート** を選択します。
 
-3. Click the **Export​** button. Make sure to leave "All decks"
-   and "Include scheduling information" turned on.
+3. **エクスポート** ボタンをクリックします。「すべてのデッキ」と「スケジュール情報を含む」をオンにしたままにしてください。
 
-4. Anki will automatically create a `collection.colpkg` file on
-   your desktop. If the file is named something else like
-   `deckname.apkg`, please see the previous step again. If it
-   is called `collection.apkg`, that will work - your Anki version
-   is just old.
+4. Ankiは自動的にデスクトップに `collection.colpkg` ファイルを作成します。ファイルが `deckname.apkg` のように別の名前になっている場合は、前のステップをもう一度確認してください。`collection.apkg` と呼ばれている場合も問題ありません - あなたのAnkiのバージョンが古いだけです。
 
-### Transfer the File
+### ファイルの転送
 
-If your devices are on the same wifi network and signed in to iCloud, you can
-use the AirDrop option in Finder to
-[AirDrop](https://support.apple.com/en-au/HT204144) the `collection.colpkg` file
-to your mobile device.
+デバイスが同じWi-Fiネットワークに接続されていて、iCloudにサインインしている場合は、FinderのAirDropオプションを使用して、`collection.colpkg`ファイルをモバイルデバイスに[AirDrop](https://support.apple.com/en-au/HT204144)することができます。
 
-If you do not have access to AirDrop, you can use
-[Finder](https://support.apple.com/en-us/HT210598) or
-[iTunes](http://support.apple.com/kb/HT4094) to drop the .colpkg file into
-Anki's file sharing area.
+AirDropを利用できない場合は、[Finder](https://support.apple.com/en-us/HT210598)または[iTunes](http://support.apple.com/kb/HT4094)を使用して、.colpkgファイルをAnkiのファイル共有エリアにドロップすることができます。
 
-### Import the File
+### ファイルのインポート
 
-If you AirDropped the file, AnkiMobile should have automatically
-popped up and imported the file when you accepted it.
+AirDropでファイルを送信した場合、受け入れたときにAnkiMobileが自動的にポップアップしてファイルをインポートするはずです。
 
-If you transferred the file via iOS file sharing, go to AnkiMobile's
-deck list screen, and then:
+iOSのファイル共有を介してファイルを転送した場合は、AnkiMobileのデッキリスト画面に移動し、次の手順を行います：
 
-1. Tap the **Add/Export** button on the bottom left.
+1. 左下の **追加/エクスポート** ボタンをタップします。
 
-2. Choose **Import from iTunes**, then confirm the replacement.
+2. **iTunesからインポート** を選択し、置き換えを確認します。
 
-3. If you receive a message about "No file found to import", please
-   check to make sure you put the `collection.colpkg` file in AnkiMobile's
-   file sharing section.
+3. 「インポートするファイルが見つかりません」というメッセージが表示された場合は、`collection.colpkg` ファイルをAnkiMobileのファイル共有セクションに正しく配置したか確認してください。
 
-Once complete, the decks on your device will have been replaced with the
-decks from your desktop.
+完了すると、デバイス上のデッキはデスクトップのデッキに置き換えられます。
 
-When you import a `collection.colpkg` file, Anki will avoid
-copying any sounds or images if they already exist on your mobile
-device, and are the same file size. This will make imports after the
-first one considerably faster if you have a lot of media files.
+`collection.colpkg` ファイルをインポートすると、Ankiはモバイルデバイス上に既に存在し、同じファイルサイズのサウンドや画像をコピーしないようにします。これにより、多くのメディアファイルがある場合、最初のインポート後のインポートがかなり速くなります。
 
-## iPhone/iPad to Computer
+## iPhone/iPadからコンピュータへ
 
-On AnkiMobile, tap the **Add/Export** button on the bottom left of
-the decks list.
+AnkiMobileで、デッキリストの左下にある **追加/エクスポート** ボタンをタップします。
 
 ### AirDrop
 
-1. Choose **Export to Share**, and then choose **AirDrop**.
-2. Select your computer. If your computer doesn't appear, make
-   sure you have AirDrop open on your computer.
-3. Once the file has arrived on your computer, use **File>Import**
-   inside Anki to import the file.
+1. **共有用にエクスポート** を選択し、次に **AirDrop** を選択します。
+2. コンピュータを選択します。コンピュータが表示されない場合は、コンピュータでAirDropを開いていることを確認してください。
+3. ファイルがコンピュータに届いたら、Anki内で **ファイル > インポート** を使用してファイルをインポートします。
 
 ### Finder/iTunes
 
-1. Choose **Export to iTunes**, and tap **Export**.
+1. **iTunesにエクスポート** を選択し、**エクスポート** をタップします。
 
-Then on your computer:
+次にコンピュータで:
 
-1. Connect your Apple device to your computer via the USB cable.
+1. AppleデバイスをUSBケーブルでコンピュータに接続します。
 
-2. Open Finder or iTunes.
+2. FinderまたはiTunesを開きます。
 
-3. Locate Anki’s file sharing section with [Apple’s instructions](http://support.apple.com/kb/HT4094).
+3. [Appleの指示](http://support.apple.com/kb/HT4094)に従って、Ankiのファイル共有セクションを見つけます。
 
-4. Drag the `collection.colpkg` file from Finder or iTunes to your
-   desktop.
+4. FinderまたはiTunesから `collection.colpkg` ファイルをデスクトップにドラッグします。
 
-5. Use File>Import in Anki to import the file.
+5. Ankiで **ファイル > インポート** を使用してファイルをインポートします。
 
-6. After importing, you can delete the file on your desktop if you
-   wish.
+6. インポート後、必要に応じてデスクトップ上のファイルを削除できます。
