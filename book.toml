@@ -1,25 +1,18 @@
 [book]
 authors = ["Ankitects Pty Ltd and contributors"]
-language = "jp"
+language = "ja"
 multilingual = false
 src = "src"
 title = "AnkiMobile マニュアル"
 
-[build]
-create-missing = true
-
 [output.html]
-# no-section-label = true
-git-repository-url = "https://https://github.com/shigeyukey/ankimobile-docs-jp/"
+git-repository-url = "https://forms.gle/jbnPepH378mVb2Sz5"
+git-repository-icon = "fa-envelope"
+additional-css = ["css/misc.css", "css/kbd.css"]
 
-[preprocessor.toc]
-command = "mdbook-toc"
-renderer = ["html"]
+[output.html.print]
+enable = false
 
-[output.linkcheck]
-optional = true
-warning-policy = "warn"
-follow-web-links = true
-exclude = [ 'quora\.com', 'reddit.com',
- 'superuser.com', 'github.com/open-spaced-repetition',
- 'shigeyukey.github.io/Anki-faqs-jp','shigeyukey.github.io/anki-manual-jp' ]
+[output.html.fold]
+enable = true
+level = 0
