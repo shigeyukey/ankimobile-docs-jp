@@ -8,7 +8,6 @@ title = "AnkiMobile マニュアル"
 [output.html]
 git-repository-url = "https://forms.gle/jbnPepH378mVb2Sz5"
 git-repository-icon = "fa-envelope"
-additional-css = ["css/misc.css", "css/kbd.css"]
 
 [output.html.print]
 enable = false
